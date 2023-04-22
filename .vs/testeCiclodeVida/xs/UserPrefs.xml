@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{65EE5118-D933-4E32-BB16-9E529E5AF1BF}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="testeCiclodeVida/Program.cs">
+    <Files>
+      <File FileName="testeCiclodeVida/Program.cs" Line="24" Column="24" />
+      <File FileName="testeCiclodeVida/Controllers/HomeController.cs" Line="40" Column="6" />
+      <File FileName="testeCiclodeVida/Services/ServiceScoped.cs" Line="12" Column="32" />
+      <File FileName="testeCiclodeVida/Services/ServiceSingleton.cs" Line="1" Column="1" />
+      <File FileName="testeCiclodeVida/Services/ServiceTransient.cs" Line="1" Column="1" />
+      <File FileName="testeCiclodeVida/Interfaces/IServiceScoped.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="testeCiclodeVida" expanded="True">
+            <Node name="testeCiclodeVida" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>dados["results"].First["geometry"]["location"]["lat"]</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.testeCiclodeVida PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

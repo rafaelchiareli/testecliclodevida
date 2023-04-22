@@ -1,0 +1,48 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <h2>Scoped</h2>
+    <br />
+    <p>@ViewBag.scoped1 </p>
+    <p>@ViewBag.scoped2 </p>
+    <p>
+        Toda vez que uma instância do repositorio ou da interface é criada, ele gera o mesmo id para cada instância, mas se você atualizar a página ele gera novos Ids<br />
+        Ou seja, eles compartilham a instância mas somente para cada requisição, ou cada vez que um metodo de api é chamado ou uma página do sistema aberta.
+    </p>
+
+</div>
+
+<div class="text-center">
+
+    <h2>Transient</h2>
+    <br />
+    <p>@ViewBag.transient1 </p>
+    <p>@ViewBag.transient2 </p>
+    <p>
+        Cada hora que fazemos uma requisição ela sempre vai gerar Ids diferentes, ou seja, cada instância opera de forma independente não compartilhando nada entre si.
+    </p>
+
+
+</div>
+
+
+
+
+
+<div class="text-center">
+
+    <h2>Singleton</h2>
+    <br />
+    <p>@ViewBag.singleton1 </p>
+    <p>@ViewBag.singleton2 </p>
+    <p>
+        Toda vez que acessamos uma página no sistema, ou seja, sempre que ela abrir utlizará os mesmos id entre as 2 instâncias, so mudará quando pararmos ou fecharmos o sistema a abrimos novamente.
+        Isso que eu acho que está acontecendo com aquele erro de inserir as distâncias, porque se nao me engano, o padrão é o singleton, ai quando o repositório faz o primeiro insert, ele faz o dispose depois e acaba sumindo...
+
+    </p>
+
+    </div>
+    
